@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <div class="NotOptimize">
+      <h1>Indholdet er kun optimeret til smartphones</h1>
+      <p>Find din telefon frem og prøv via den, eller åben undersøg hvis du bruger chrome!</p>
+      <p>Dette virker ikke altid optimalt. Hvis du ser en hvid kant rundt, vælg
+        en mobil størrelse, genstart derefter undersøg. Dette bør løse problemet</p>
+    </div>
+
+    <nav class="displayNone">
+      <button type="button" name="button" id="ManageCities" >Adminster byer</button>
+    </nav>
+    <div id="ManageCityBox" class="displayNone">
+      <div id="search">
+        <input type="text" name="search" placeholder="søg" id="input">
+        <img src="img/search-solid.svg" alt="Search Ikon" id="SearchIcon">
+      </div>
+      <div id="Cities">
+      </div>
+      <button type="button" name="button" id="addCity"> + <br> Tilføj by </button>
+    </div>
+
+    <div id="BackgroundBlur" class="displayNone">
+    </div>
+    <div id="optimize">
+      <h1 id="By"></h1>
+      <img id="Icon" src="" alt="VejrIkon">
+      <p id="Celsius"></p>
+      <div id="ForecastHour">
+      </div>
+
+    </div>
+
+
+  </main>
+
+  <script src="js/script.js">
+  </script>
+
+</body>
+</html>
